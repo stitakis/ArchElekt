@@ -10,11 +10,11 @@ The new system should deliver a better user experience and resolve the issues wh
 
 ## Principals
 
-In order to be able to drive conversations and architectural choices, it seemed important to define some principals and so the presented architecture has designed with the following in mind:
+In order to be able to drive conversations and architectural decisions, it seemed important to set clear principals and so the presented architecture was designed with the following ones in mind:
 
 - **Simple** and **pragmatic**. The problems of the current system are impactful for the business and it is important to fix them in a timely manner.
 - **Priority** to fixing current situation.
-- **Flexibility** for future improvement. It also seemed appropriate to decouple some of the responsibility without replacing them will keeping future options open.
+- **Flexibility** for future improvement. It also seemed appropriate to decouple some of the responsibilities without replacing them while keeping the system open to future changes.
 
 ## Context
 
@@ -36,9 +36,9 @@ The segregation is also done in the frontend. The webpages are segregated to ser
 
 ## Ticket Workflow Alteration
 
-It is difficult to to adapt the process without the input of the Business. It will be interesting to run a co-creation workshop where the process could be altered to ensure tickets are not lost or properly assigned. 
+It is difficult to adapt the process without the input of the Business. It would be interesting to run a co-creation workshop where the process could be altered to ensure tickets are not lost or correctly assigned. 
 
-Although here is a proposal a process that embbed a feedback mechanism from the expert when a ticket is assigned to them. It is important to mention here as well that having experts maintaining their own skill set in the system instead of the manager would help keeping them up to date and improve on the assignation algorithm.
+Although here is a proposal  that embed a feedback mechanism from expert when a ticket is assigned to them. It is important to mention here as well that having experts maintaining their own skill set in the system instead of the manager would be crucial to improve the reliabliity of the assignation algorithm.
 
 ![Ticket Workflow](./resources/alternative-ticket-workflow.png?raw=true)
 
