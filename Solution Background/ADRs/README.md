@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-- [1. Allow experts to maintain their own skills](./001%20Allow experts%20to%20maintain%20their%20own%20skills.md)
+- [1. Allow experts to maintain their own skills](./001%20Allow%20experts%20to%20maintain%20their%20own%20skills.md)
 - [2. API layer as single point of contact for all user interfaces](./002%20API%20layer%20as%20single%20point%20of%20contact%20for%20all%20user%20interfaces.md)
 - [3. Segregate ticket creation into a separate container](./003%20Segregate%20ticket%20creation%20into%20a%20separate%20container.md)
 - [4. Segregate reporting into a separate container](./004%20Segregate%20reporting%20into%20a%20separate%20container.md)
