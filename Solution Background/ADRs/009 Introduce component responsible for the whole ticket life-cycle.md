@@ -20,7 +20,6 @@ We want to introduce a ticket life-cycle component that represents and also driv
 - escalation to manger
 - triggering notifications
 - requesting for survey
-![Ticket Workflow](../Problem%20Background/resources/ticket-workflow.png)
 
 ## Consequences
 
