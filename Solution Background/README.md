@@ -6,3 +6,4 @@
 - [Tradeoffs](Tradeoffs.md)
 - [Risks and Sensitive points](RisksAndSensitivePoints.md)
 - [ADRs](ADRs/)
+- [Discussion](Discussion.md)
