@@ -1,6 +1,6 @@
 # Architectural Katas 2021 Spring - Group ArchElekt
 
-Welcome everybody to contribution of our first participation in the Architectural Katas 😄
+Welcome everybody to our first participation in the Architectural Katas 😄
 
 ## Members
 - Vincent Elcrin
