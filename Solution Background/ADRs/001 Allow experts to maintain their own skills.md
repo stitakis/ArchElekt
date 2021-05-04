@@ -8,16 +8,16 @@ Accepted
 
 ## Context
 
-Customers reported that sometimes wrong expert shows up to the appointment to fix something they know nothing about. Sometimes no expert shows up at all. We assume that one of the reasons for this might be an expert that doesn't feel like being the right person for a specific issue.
+Customers reported that sometimes wrong expert shows up to the appointment to fix something they know nothing about. Sometimes no expert shows up at all. We assume that one of the reasons for this might be the expert does not have the right skill set because those are maintained by the manager and might be outdated.
 
 ## Decision
 
-To help to improve the situation, we think that experts should be able to maintain their own skills. This will help to:
+To improve the situation, experts should be able to maintain their own skills. This will help to:
 - relief the administrator from this activity
 - help the system to match tickets with better accuracy to available skillsets
 - help the system to find an expert and therefore reduce the perception of lost tickets
 
-A possible solution is a new section in the expert's mobile app for editing/maintaining the own profile including the skills to offer.
+A possible solution is a new section in the expert's mobile app for editing/maintaining their own profile including skills.
 
 ## Consequences
 
