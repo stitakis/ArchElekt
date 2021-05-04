@@ -15,10 +15,11 @@ This decouples this part of the flow from the database and achieves even more re
 While these measures increase the overall complexity we believe it outweighs its cost and expect that no new ticket will be lost.
 
 3. We introduced a ticket lifecycle component to manage the different stages of a ticket.
-Additionally functionality means more effort and cost increasement around maintenance.
-However, we believe that this workflow like implementation will improve the overall ticket assignment implementation and ticket management. 
+Additional functionality means increase in effort and cost on maintenance. However, we believe that this workflow like implementation will improve the overall ticket assignment implementation and ticket management.
 The former architecture didn't provide a solid concept for managing the ticket lifecycle.
 We believe this measure combined with others decision mentioned above and in the ADRs will contribute to avoid any lost of ticket.
 
-4. To improve security we splitted from the database the login and payment to its own database accordingly.
+4. To improve security we split from the database the login and payment to its own database accordingly.
 The goal of this measure was to reduce the risk of data breach at the cost of increased complexity.
+   
+5. Overall, it will be difficult to parallelize the ticket processing as by nature, there a limitation due to the assignation of ticket to experts. It is a trade-off we can accept as the volume of tickets should not be that high, and the speed of treating them is not time critical.  
