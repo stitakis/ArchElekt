@@ -8,6 +8,7 @@ Current process in the monolithic system:
 
 Sysops squad experts are added and maintained in the system through an administrator, who enters in their locale, availability, and skills.
 Customers who have purchased the support plan can enter a problem ticket using the sysops squad website. Customer registration for the support service is part of the system. The system bills the customer on an annual basis when their support period ends by charging their registered credit card.
+
 Once a trouble ticket is entered in the system, the system then determines which sysops squad expert would be the best fit for the job based on skills, current location, service area, and availability (free or currently on a job).
 The sysops squad expert is then notified via a text message that they have a new ticket. Once this happens an email or SMS text message is sent to the customer (based on their profile preference) that the expert is on their way.
 The sysops squad expert then uses a custom mobile application on their phone to access the ticketing system to retrieve the ticket information and location. The sysops squad expert can also access a knowledge base through the mobile app to find out what things have been done in the past to fix the problem.
