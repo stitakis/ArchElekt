@@ -9,14 +9,7 @@
 | System   | <ul><li>send reports to manager (financial, expert perf, ticketing)</li><li>bill customer monthly</li><li>determines which expert would be the best fit for the job (skills, location, service area, availability)</li><li>notify expert by SMS</li><li>notify customer by Email or SMS (based on profile pref) ticket has been assigned</li><li>notify customer by Email or SMS the ticket is complete</li><li>send survey to customer to fill out</li></ul> |
 
 ## Ticket Workflow
-- Customers who have purchased the support plan enter a problem ticket using the Sysops Squad website.
-- Once a problem ticket is entered in the system, the system then determines which Sysops Squad expert would be the best fit for the job based on skills, current location, service area, and availability (free or currently on a job).
-- Once assigned, the problem ticket is uploaded to a dedicated custom mobile app on the Sysops Squad expert’s mobile device. The expert is also notified via a text message that they have a new problem ticket.
-- The customer is notified through an SMS text message or email (based on their profile preference) that the expert is on their way.
-- The expert uses the custom mobile application on their phone to retrieve the ticket information and location. The sysops squad expert can also access a knowledge base through the mobile app to find out what things have been done in the past to fix the problem.
-- Once the expert fixes the problem, they mark the ticket as “complete”. The sysops squad expert can then add information about the problem and repair information to the knowledge base.
-- After the system receives notification that the ticket is complete, the system send an email to the customer with a link to a survey which the customer then fills out.
-- The system receives the completed survey from the customer and records the survey information.
+![Ticket workflow](./resources/ticket-workflow.png?raw=true)
 
 ## Identified Problems
 1. Wrong expert shows up to appointment
@@ -36,4 +29,14 @@
     - The monolithic architecture is most likely the cause of this as it might have lead to strong coupling. Decomposition and isolation could help.
     - Responsibilities might have been intertwined within component making difficult to update functionalities without regressions.
 
+## Architecture Charateristics
+
+Following the identification of the current system problems, the following architecture charateristics emerge:
+
 ![Architecture Charateristics](./resources/architecture-characteristics.png?raw=true)
+
+- Reliability
+- Availibility
+- Elasticity
+- Observability
+- Maintenability
