@@ -8,7 +8,7 @@ Accepted
 
 ## Context
 
-Usage peaks of the system might lead to not beeing able to enter tickets, system freezes and the perception of ticket lost.
+Usage spikes of the system might lead to not beeing able to enter tickets, system freezes and the perception of ticket lost.
 
 ## Decision
 
