@@ -36,18 +36,37 @@ The segregation is also done in the frontend. The webpages are segregated to ser
 
 ## Ticket Workflow Alteration
 
-It is difficult to adapt the process without the input of the Business. It would be interesting to run a co-creation workshop where the process could be altered to ensure tickets are not lost or correctly assigned. 
+It is difficult to adapt the process without the input of the Business. It would be interesting to run a co-creation workshop where the process could be altered to ensure tickets are not lost or incorrectly assigned. 
 
 Although here is a proposal  that embed a feedback mechanism from expert when a ticket is assigned to them. It is important to mention here as well that having experts maintaining their own skill set in the system instead of the manager would be crucial to improve the reliabliity of the assignation algorithm.
 
 ![Ticket Workflow](./resources/alternative-ticket-workflow.png?raw=true)
 
+## Container Decomposition 
+The following chapter describes the structure of the core containers 
 
-
-
-## Component Decomposition 
-
+### Payment
+The payment container is split into a payment controller and a billing history component. 
+The sensitive data are kept in a seperate database. 
 ![Payment service](./resources/PaymentService.png?raw=true)
+
+### Shared services
+This container is designed to provide the functionality for multiple domains. 
+The functions are not business critical and aren't load intensive. 
+The covered domains: 
+- Expert profiles
+- User maintenance
+- Knowledge base articles
+- Contract management
+- Customer profiles
 ![Shared services](./resources/SharedService.png?raw=true)
+
+### Ticket lifecycle
+This container provide the cirtical functionaltiy of managing tickets. 
+The core component of this container is the ticket workflow component and it is implementing the processes and orchestrate the other components.
 ![Ticket lifecycle service](./resources/TicketLifecycleService.png?raw=true)
+
+### Ticket creation 
+This container provide the functionality for the ticket creation. 
+To assure that no tickets get lost a queueing should implemented.
 ![Ticket creation services](./resources/TicketCreationService.png?raw=true)
