@@ -19,6 +19,6 @@ Table of content:
   - [System Analysis](Problem%20Background/System%20Analysis.md)
 - [Solution Background](Solution%20Background/README.md)
   - [Solution Overview](Solution%20Background/Solution%20Overview.md)
-  - [Tradeoffs](Solution%20Background/Tradeoffs.md)
+  - [Trade-offs](Solution%20Background/Tradeoffs.md)
   - [Achitecture Decision Records](Solution%20Background/ADRs/)
   - [Discussion](Solution%20Background/Discussion.md)

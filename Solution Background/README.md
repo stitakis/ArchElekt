@@ -1,9 +1,5 @@
 # Solution Background
-
-- [Solution Overview](SolutionOverview.md)
-- [Assumptions](Assumptions.md)
-- [System approach](SystemAppoach.md)
-- [Tradeoffs](Tradeoffs.md)
-- [Risks and Sensitive points](RisksAndSensitivePoints.md)
-- [ADRs](ADRs/)
-- [Discussion](Discussion.md)
+- [Solution Overview](Solution%20Background/Solution%20Overview.md)
+- [Trade-offs](Solution%20Background/Tradeoffs.md)
+- [Achitecture Decision Records](Solution%20Background/ADRs/)
+- [Discussion](Solution%20Background/Discussion.md)
