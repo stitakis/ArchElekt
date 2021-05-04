@@ -1,4 +1,4 @@
-# 10. Introduce workflow engine as alternative to ADR 9
+# 12. Improve observability and introduce a monitoring tool
 
 Date: 2021-05-04
 
@@ -16,4 +16,4 @@ Introducing better oberservability and a monitoring solution would counter assum
 
 ## Consequences
 
-Introducing and maintaining a monitoring system usually takes time from development but the benefit of reacting fast to failure and identifying performance issues clearly outweigh the cost. It will also enable more informed future architecture decisions by adressing the right problems.
+Introducing and maintaining a monitoring system usually takes time from development, but the benefit of reacting fast to failure and identifying performance issues clearly outweigh the cost. It will also enable more informed future architecture decisions by adressing the right problems.
