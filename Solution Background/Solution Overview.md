@@ -68,5 +68,5 @@ The core component of this container is the ticket workflow component and it is 
 
 ### Ticket creation 
 This container provide the functionality for the ticket creation. 
-To assure that no tickets get lost a queueing should implemented.
+To assure that no tickets get lost a queueing should be implemented.
 ![Ticket creation services](./resources/TicketCreationService.png?raw=true)
