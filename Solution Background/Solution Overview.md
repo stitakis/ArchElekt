@@ -62,7 +62,7 @@ The covered domains:
 ![Shared services](./resources/SharedService.png?raw=true)
 
 ### Ticket lifecycle
-This container provide the cirtical functionaltiy of managing tickets. 
+This container provide the critical functionaltiy of managing tickets. 
 The core component of this container is the ticket workflow component and it is implementing the processes and orchestrate the other components.
 ![Ticket lifecycle service](./resources/TicketLifecycleService.png?raw=true)
 
