@@ -1,6 +1,6 @@
 # Solution Background
 
-- [Solution Overview](SolutionOverview.md)
+- [Solution Overview](Solution+Overview.md)
 - [Assumptions](Assumptions.md)
 - [System approach](SystemAppoach.md)
 - [Tradeoffs](Tradeoffs.md)

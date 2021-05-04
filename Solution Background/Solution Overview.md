@@ -17,9 +17,10 @@ In order to be able to drive conversations and architectural choices, it seemed 
 - **Flexibility** for future improvement. It also seemed appropriate to decouple some of the responsibility without replacing them will keeping future options open.
 
 ## Context
+
 The system doesn't have a lot of interfaces. It provides the users the needed information with taylored interfaces and rely on 3rd party services for sending notifications to increase efficency and user experience for all the stakeholders.  
 The users can be seen as four different roles which interact with the system: 
-1. The customer 
+1. The customer  - **external**
 1. The Expert 
 1. The Administrator
 1. The Manager
@@ -28,6 +29,8 @@ The users can be seen as four different roles which interact with the system:
 ![System Context](./resources/SystemContext.png)
 
 ## Conceptional Model
+The concept is to segregate the load intensive and important components. Each of the containers represent a seperate deplyoment. With this concept resource intensive components like Reporting triggered by internal users does not affect the customer facing part of the application. 
+The segregation is also done in the frontend. The webpages are segregated to serve only for internal or external users to isolate the different use cases.  
 
 ![Containe Model](./resources/Containers.png)
 
