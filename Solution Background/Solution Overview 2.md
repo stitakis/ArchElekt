@@ -1,4 +1,12 @@
 # Solution Overview
+## Purpose 
+
+The following chapters provide a architectural overview of the solution.The [C4 Model](https://c4model.com/) is used to give an overview about the new architecture of the ticketing system. 
+
+## Solution goals
+
+The proposed design provides a simple approach to create a new reliable and flexible solution for the SysOps Squads trouble ticket system.
+Then new approach to resolve the issues which are outlined in the [Problem Background](../Problem+Background/System+Analysis.md')
 
 ## Principals
 
@@ -7,6 +15,11 @@ In order to be able to drive conversations and architectural choices, it seemed 
 - **Simple** and **pragmatic**. The problems of the current system are impactful for the business and it is important to fix them in a timely manner.
 - **Priority** to fixing current situation.
 - **Flexibility** for future improvement. It also seemed appropriate to decouple some of the responsibility without replacing them will keeping future options open.
+
+## Context
+### TODO: Context Diagram
+
+
 
 ## Ticket Workflow Alteration
 
