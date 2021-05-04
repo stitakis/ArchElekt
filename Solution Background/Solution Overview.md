@@ -29,7 +29,7 @@ The users can be seen as four different roles which interact with the system:
 ![System Context](./resources/SystemContext.png)
 
 ## Conceptional Model
-The concept is to segregate the load intensive and important components. Each of the containers represent a seperate deplyoment. With this concept resource intensive components like Reporting triggered by internal users does not affect the customer facing part of the application. 
+The concept is to segregate the load intensive and important components. Each of the containers represent a separate deployment unit. With this concept resource intensive components like Reporting triggered by internal users does not affect the customer facing part of the application. 
 The segregation is also done in the frontend. The webpages are segregated to serve only for internal or external users to isolate the different use cases.  
 
 ![Containe Model](./resources/Containers.png)
