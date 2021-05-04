@@ -22,4 +22,4 @@ We believe this measure combined with others decision mentioned above and in the
 4. To improve security we split from the database the login and payment to its own database accordingly.
 The goal of this measure was to reduce the risk of data breach at the cost of increased complexity.
    
-5. Overall, it will be difficult to parallelize the ticket processing as by nature, there a limitation due to the assignation of ticket to experts. It is a trade-off we can accept as the volume of tickets should not be that high, and the speed of treating them is not time critical.  
+5. Overall, it will be difficult to parallelize the ticket processing as by nature, there is a limitation due to the assignation of ticket to experts. It is a trade-off we can accept as the volume of tickets should not be that high, and the speed of treating them is not time critical.  
