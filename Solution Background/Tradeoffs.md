@@ -1,4 +1,4 @@
-= Trade-offs
+# Trade-offs
 
 . We converted the monolith in service-based architecture style with the aim to sacrifice simplicity for more agility, flexibility and availability.
 Different parts of the system can be developed and tested independently.
