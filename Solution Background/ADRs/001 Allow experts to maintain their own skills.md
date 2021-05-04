@@ -23,4 +23,4 @@ A possible solution is a new section in the expert's mobile app for editing/main
 
 Allowing experts to maintain their own skills could lead to a misuse of this function. Some experts could introduce more skills than they actually have to gather more jobs. While the former situation limits the skillset entry to the administrator, who acts as a filter, it also builds a bottleneck and doesn't guarantee the accuracy of the experts skillset introduced by the administrator.
 
-We believe that by allowing experts to maintain their own skillset will outweigh this risks and will help overall to improve the situation.
+We believe that by allowing experts to maintain their own skillset will outweigh these risks and will help overall to improve the situation.
