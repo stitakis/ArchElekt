@@ -6,7 +6,7 @@ The following chapters provide a architectural overview of the solution.The [C4 
 ## Solution goals
 
 The proposed design provides a simple approach to create a new reliable and flexible solution for the SysOps Squads trouble ticket system.
-The new system should deliver a better user experience and resolve the issues which are outlined in the [Problem Background](../Problem+Background/System+Analysis.md') in a timely manner.
+The new system should deliver a better user experience and resolve the issues which are outlined in the [Problem Background](../Problem%20Background/System%20Analysis.md') in a timely manner.
 
 ## Principals
 
