@@ -21,7 +21,7 @@ Maybe a step by step walk through would be better for the workflow.
 If something isn’t done soon, Penultimate Electronics will be forced to **abandon** this very lucrative business line and **fire all of the experts**.
 
 ## Problems
-* Wrong expert show up (Christian)
+* [Wrong expert show up](./WrongExpert_short.md) (Christian)
     - Why? Reasons, assumptions, ...
       * Expert skills are outdated in the system due to the manager maintaining them.
     - Characteristics
@@ -49,6 +49,8 @@ If something isn’t done soon, Penultimate Electronics will be forced to **aban
 * Security (Bonus) Steffen
     - Danger of putting all your eggs in the same basket
     - ADR7 & ADR8
+
+# [Finish Line](./FinishLine.md)
 
 ## Principals
 * Simple and pragmatic
