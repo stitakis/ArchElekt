@@ -14,15 +14,6 @@ Characteristics: Reliability, Availability
 
 ---
 
-🛠 System is hard to change
-
-Transcript:
-One of the reason the team mentioned is that the system is hard to change. Leading often to crashes. This is probable due to the strong coupling between components that emerged with time from the monolithic system.
-
-Characteristics: Maintainability
-
----
-
 📈 Customer Usage Spike
 
 Transcript:
@@ -39,7 +30,19 @@ Another piece though that could be the cause of the performance issues is the Re
 
 ---
 
-## Monitoring
+🛠 Another problem: system is hard to change
+
+"Whenever a change is made, it takes too long and something else usually breaks"
+
+Transcript: This is probable due to the strong coupling between components that emerged with time from the monolithic system.
+
+Characteristics: Maintainability
+
+____
+
+# Decision
+ 
+Add monitoring
 
 <span style="font-size: 80px">🧐</span>
 
@@ -52,7 +55,71 @@ Characteristics: Observability
 
 ---
 
-# Split the monolith
-
-Transcript:
 Although we did not actually stop there and brought also some answers to those problems.
+
+---
+
+# Solution
+
+Split the monolith
+
+Transcript: divide and conquer strategy will help us to improve code maintainability and address the availability problem     
+
+---
+
+When splitting a monolith there are some architecture style option to pick...
+
+... we decided to go service-based architecture 
+
+Transcript: this is pretty cool, now we can quickly introduce services and we don't even need to split the database. 
+
+---
+
+Before to start splitting the monolith, we need to do a strategic change in the architecture
+
+--- 
+
+# Decision
+
+Add an API layer as single point of contact 
+- to provide an abstraction layer 
+- and to allow decomposition of the monolith and provide services 
+
+ADRs: ADR2
+
+Transcript: exactly what we need, this will increase flexibility and testability
+
+--- 
+
+how we continue? Which service shold we split first
+
+--- 
+# Decision
+
+Segregate reporting into a separate service
+
+- to avoid collateral impact of the resources consumption load that reporting could cause
+ 
+
+ADRs: ADR4
+
+Transcript: excellent, now load caused by report generation will not impact other functionality.  
+
+---
+
+can decouple more the monolith
+
+Transcript: let see if we found some quick wins
+
+---
+
+# Decision
+
+Improve security by introducing more services
+ - by splitting from the monolith the authentication and payment component
+ - each in its own service with its own separated database  
+
+Transcript: awesome, now the sensible data is isolated and more secure   
+
+ADRs: ADR7 & ADR8
+___
