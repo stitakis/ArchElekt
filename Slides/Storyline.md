@@ -46,9 +46,6 @@ If something isn’t done soon, Penultimate Electronics will be forced to **aban
     - Characteristics
     - Solution (ADR3, ADR5, ADR6, ADR9 - ~~10~~)
     - Tradeoffs
-* Security (Bonus) Steffen
-    - Danger of putting all your eggs in the same basket
-    - ADR7 & ADR8
 
 # [Finish Line](./FinishLine.md)
 
