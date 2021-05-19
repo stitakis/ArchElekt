@@ -13,28 +13,28 @@ This is IT!
 Simple and pragmatic
 
 Transcription:
-Our solution simply fills a couple of smaller and bigger gaps in the existing system.
+Our solution simply fills a couple of gaps in the existing system.
 
 ---
 
 Priority to fixing current situation
 
 Transcription:
-Yes, we have a system. So let's take reasonable steps and fix the critical pieces first. Be effictive rather than redoing the whole system. Let's save that money.
+Yes, we have a system. So let's take reasonable steps and fix the critical pieces first. Be effective rather than redoing the whole system. Let's save that money.
 
 ---
 
 Flexibility for future improvement
 
 Transcription:
-We'll get more flexibility which is key for any future improvment.
+We'll get more flexibility which is key for any future improvement.
 
 ---
 
 More secure
 
 Transcription:
-...and we added security whenever we saw a chance. Yeay!
+...and we improved security whenever we saw a chance!
 
 ---
 
