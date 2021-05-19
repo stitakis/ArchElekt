@@ -27,15 +27,15 @@ If something isn’t done soon, Penultimate Electronics will be forced to **aban
     - Characteristics
     - Solution (ADR1) Updating own profile
     - Tradeoffs
-* Hard to change (Sebastian)
-    - Why? Reasons, assumptions, ...
-    - Characteristics: Maintainability
-    - Solution (ADR2, ADR11), Service based architecture, make workflow responsibility explicit, API gateway
-    - Tradeoffs
 * System unavailable, freezes up or crashes (Vincent)
     - Why? Reasons, assumptions, ...
-    - Characteristics: Reliability, Availability, Observability
-    - Solution (ADR4, ADR11, ADR12) Extract Reporting, Split FE, monitoring
+    - Characteristics: Observability
+    - Solution (ADR12) monitoring
+    - Tradeoffs
+* Hard to change (Sebastian)
+    - Why? Reasons, assumptions, ...
+    - Characteristics: Maintainability, Reliability, Availability
+    - Solution (ADR2, ADR4, ADR11, maybe mention ADR7 & ADR8), Service based architecture, make workflow responsibility explicit, API gateway
     - Tradeoffs
 * Ticket loss - Workflow (Together)
     - Why? Reasons, assumptions, ...
