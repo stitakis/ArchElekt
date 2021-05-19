@@ -14,7 +14,7 @@ Characteristics: Reliability, Availability
 
 ---
 
-📈 Customer Usage Spike
+📈 Usage Spike caused by customers
 
 Transcript:
 Also, the team mentioned customer usage spikes as the route cause of the performance problems. Might be although we don't know as we don't have any evidences.
@@ -28,17 +28,7 @@ Characteristics: Elasticity
 Transcript:
 Another piece though that could be the cause of the performance issues is the Reporting. Depending on the kind of reports, this can add a lot of pressure to the system, and especially when resources are shared with other core functionalities like in a monolithic architecture. 
 
----
-
-🛠 Another problem: system is hard to change
-
-"Whenever a change is made, it takes too long and something else usually breaks"
-
-Transcript: This is probable due to the strong coupling between components that emerged with time from the monolithic system.
-
-Characteristics: Maintainability
-
-____
+___
 
 # Decision
  
@@ -46,7 +36,7 @@ Add monitoring
 
 <span style="font-size: 80px">🧐</span>
 
-ARDs: 12
+ARDs: 12 (add link)
 
 Transcript:
 Anyway, those are wild guesses. We actually don't know for sure. So the right way to look at those problems should probably be to invest in monitoring and do some proper root cause analysis.
@@ -55,7 +45,17 @@ Characteristics: Observability
 
 ---
 
-Although we did not actually stop there and brought also some answers to those problems.
+so far team reported availability and reliability problems
+
+Are there more?
+
+---
+
+🛠 System is hard to change
+
+Transcript: "Whenever a change is made, it takes too long and something else usually breaks". This is probably due to the strong coupling between components that emerged with time from the monolithic system.
+
+Characteristics: Maintainability
 
 ---
 
@@ -82,32 +82,27 @@ Before to start splitting the monolith, we need to do a strategic change in the 
 # Decision
 
 Add an API layer as single point of contact 
-- to provide an abstraction layer 
-- and to allow decomposition of the monolith and provide services 
 
 ADRs: ADR2
 
-Transcript: exactly what we need, this will increase flexibility and testability
+Transcript: to provide an abstraction layer and to allow decomposition of the monolith and provide services. Exactly what we need, this will increase flexibility and testability
 
 --- 
 
-how we continue? Which service shold we split first
+how we continue? Which service should we split first?
 
 --- 
 # Decision
 
 Segregate reporting into a separate service
 
-- to avoid collateral impact of the resources consumption load that reporting could cause
- 
-
 ADRs: ADR4
 
-Transcript: excellent, now load caused by report generation will not impact other functionality.  
+Transcript: to avoid collateral impact of the resources consumption load that reporting could cause. We will avoid that system freezes. Transcript: excellent, now load caused by report generation will not impact other functionality.  
 
 ---
 
-can decouple more the monolith
+can decouple more the monolith?
 
 Transcript: let see if we found some quick wins
 
@@ -116,10 +111,19 @@ Transcript: let see if we found some quick wins
 # Decision
 
 Improve security by introducing more services
- - by splitting from the monolith the authentication and payment component
- - each in its own service with its own separated database  
 
-Transcript: awesome, now the sensible data is isolated and more secure   
+ADRs: ADR7
+ 
+Transcript: by splitting from the monolith the authentication and payment component. Awesome, now the sensible data is isolated and more secure   
 
-ADRs: ADR7 & ADR8
 ___
+
+# Decision
+
+Improve security by introducing more services
+
+ADRs: ADR8
+
+Transcript: each in its own service with its own separated database. Awesome, now the sensible data is isolated and more secure   
+
+---
