@@ -1,25 +1,11 @@
-## Quote
-
-If something isn’t done soon, Penultimate Electronics will be forced to **abandon** this very lucrative business line and **fire all of the experts**.
-
-💸
-
-Transcription:
-ROL (read out loud the slide's content)
-Wow, this sounds serious. No worries! Let's have a quick look together what is going on.
-
-13s
-
----
-
 ## The Wrong Expert
-Customers are complaining that often times the wrong consultant shows up to fix something they know nothing about.
+Customers are complaining that often times the **wrong consultant** shows up to fix something they know nothing about.
 
 🤷‍♂️ 🤬
 
 Transcription:
-ROL
-With this you will get very famous in social media... But what could be a reason for this? 
+- Although, customers are complaining that often the wrong consultant shows up.
+- With this you will get very famous in social media... But what could be a reason for this? 
 
 12s
 
@@ -28,8 +14,8 @@ With this you will get very famous in social media... But what could be a reason
 Experts' profiles like their **skill sets** are added and maintained in the system through an **administrator**
 
 Transcription:
-ROL
-This might be not ideal.
+- ROL
+- This might be not ideal.
 
 8s
 

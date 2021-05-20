@@ -1,19 +1,10 @@
 ---
-
-current problems
-
-Transcript:
-Next, let's look at some more complains.
-
-2s
-
----
 # System unavailable, freezes up or crashes
 
 Customers and call-center staff complained that the system **"freezes-up"** or worst is not **available**.
 
 Transcript:
-Hum.. That's sounds pretty bad and probably adds to the customer frustration of having an issue in the first place.
+Also <ROL> Hum.. That's sounds pretty bad and probably adds to the customer frustration.
 There is a few reasons for that though, let's break that down.
 
 Characteristics: Reliability, Availability
@@ -24,7 +15,7 @@ Characteristics: Reliability, Availability
 📈 Usage Spike caused by customers
 
 Transcript:
-Also, the team mentioned customer usage spikes as the route cause of the performance problems.
+The team mentioned customer usage spikes as the route cause of the performance problems.
 Might be although we don't know as we don't have any evidences.
 
 Characteristics: Elasticity
@@ -36,7 +27,7 @@ Characteristics: Elasticity
 📝 Reporting
 
 Transcript:
-Another piece though that could be the cause of the performance issues is the Reporting.
+Another piece that could be the cause of those performance issues is the Reporting.
 Depending on the kind of reports, this can add a lot of pressure to the system, 
 and especially when resources are shared with other core functionalities like in a monolithic architecture. 
 
@@ -63,7 +54,7 @@ Characteristics: Observability
 
 ---
 
-are there more complains?
+More complains?
 
 Transcript: so far the team reported availability and reliability problems, are more complains? 
 
@@ -99,8 +90,8 @@ we decided to go for a service-based architecture style.
 ![](../resources/service-based-architecure-shape.png)
 
 Transcript: 
-When splitting a monolith there are some architecture style option to pick.
-We picked up the service-based architecture.
+When splitting a monolith there are some architecture style option to pick from.
+We choosed the service-based architecture.
 Benefit, all services shared the same database instance.
 Now we can quickly introduce services.
 And we don't even need to invest effort in splitting the database. 
