@@ -171,31 +171,17 @@ let see if we found some more quick wins
 
 # Decision
 
-Add authentication service with dedicated database
+Segregate authentication and payment each to a separated service with dedicated database
 
-![](../resources/service-based-arch-shape.png) -> ![](../resources/sba-plus-auth-service.png) 
+![](../resources/service-based-arch-shape.png) -> ![](../resources/sba-plus-auth-service.png) -> ![](../resources/sba-plus-auth-service-plus-payment-service.png) 
 
 ADRs: [7](https://github.com/stitakis/ArchElekt/blob/main/Solution%20Background/ADRs/007%20Move%20login-relevant%20data%20and%20functionality%20into%20separate%20authentication%20service.md)
+ADRs: [8](https://github.com/stitakis/ArchElekt/blob/main/Solution%20Background/ADRs/008%20Move%20payment-relevant%20data%20into%20separate%20database.md)
  
 Transcript:
-More flexibility is gained by segregating the authentication service.
-Additionally, the authentication data allocated in its database will reduce the chance of passwords being stolen.
-This increases the overall security.
+More flexibility is gained by splitting authentication and payment service.
+Sensitive data is now allocated in its own database.
+This will increase security by reducing the chance of passwords or credit card number being stolen.
 
-12s
-___
-
-# Decision
-
-Move payment-relevant functionality and data to a dedicated service and database
-
-![](../resources/sba-plus-auth-service.png) -> ![](../resources/sba-plus-auth-service-plus-payment-service.png) 
-
-ADRs: [8](https://github.com/stitakis/ArchElekt/blob/main/Solution%20Background/ADRs/008%20Move%20payment-relevant%20data%20into%20separate%20database.md)
-
-Transcript:
-We gain more flexibility also by moving the payment functionality in its own service.
-And improve security by moving payment data to is own dedicated database.
-
-8s 
+10s
 ---
