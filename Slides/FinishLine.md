@@ -1,9 +1,6 @@
 ## Overall System
 ![](../Solution%20Background/resources/Containers.png)
 
-Transcription:
-In the end this is OUR big picture!
-  OR
 This is IT!
 
 ---

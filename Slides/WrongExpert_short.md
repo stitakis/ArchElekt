@@ -14,7 +14,7 @@ Transcription:
 Experts' profiles like their **skill sets** are added and maintained in the system through an **administrator**
 
 Transcription:
-- ROL
+- Well in the current solution, Experts' **skill sets** are added and maintained by an **administrator**
 - This might be not ideal.
 
 8s
@@ -24,20 +24,9 @@ Transcription:
 Wrong skill sets stored
 
 Transcription:
-What if the information is outdated?
+What if the information is outdated? The expert can't even tell
 
 2s
-
----
-
-Expert can't see their profiles
-
-🤷‍♂️
-
-Transcription:
-The expert will not even know that something is wrong.
-
-3s
 
 ---
 
@@ -54,9 +43,8 @@ A solution for this could be rather simple.
 
 ✌️👨‍💻
 
-
 Transcription:
-Why not allowing the expert to maintain their skill sets in the mobile app. They should know best.
+Why not allowing the expert to maintain their own skill set. They should know best.
 
 5s
 
