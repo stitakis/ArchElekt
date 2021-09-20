@@ -1,4 +1,4 @@
-# Architectural Katas 2021 Spring - Group ArchElekt
+# Architectural Katas 2021 Spring - Group ArchElekt 🥈
 
 Welcome everybody to our first participation in the Architectural Katas 😄
 
